@@ -1,0 +1,45 @@
+body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.login-box {
+    background-color: white;
+    width: 300px;
+    padding: 30px;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-box button:hover {
+    background-color: blue;
+}
+
+.login-box a {
+    color: darkblue;
+    text-decoration: none;
+}
+
+.login-box a:hover {
+    text-decoration: underline;
+}
